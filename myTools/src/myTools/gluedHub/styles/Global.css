@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:focus{
+  outline: transparent;
+  box-shadow: 0 0 0 2px #00875f;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Roboto','Inter';
+}
+
+body {
+  background: #121214;
+  color: #c4c4cc;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body,input,textarea,button{
+  font-family: 'Roboto', 'Inter';
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.wrapper{
+  max-width: 70rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+
+  display: grid;
+  grid-template-columns: 256px 1fr;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+@media (max-width: 768px)  {
+  html{
+    font-size: 87.5%;
+  }
+  .wrapper{
+    grid-template-columns: 1fr;
+  }
+}
+
+.ASfooter{
+  border-top: 1px solid #323238;
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  padding: 1.5rem 2rem 2rem;
+}
+
+.avatarWithBorder{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 8px;
+  border: 4px solid #202024;
+  outline: 2px solid #00875f;
+  box-sizing: initial;
+  object-fit: cover;
+}
+
+.avatar{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 8px;
+}
+
+.a{
+  background: transparent;
+  color:#00875f;
+  border: 1px solid #00875f;
+  border-radius: 8px;
+  height: 50px;
+  padding: 0 1.5rem;
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+
+  transition: color 0.2s, background-color 0.2s;
+}
+
+.a:hover{
+  background: #00875f;
+  color: #c4c4cc;
+}
+
+.desapear footer{
+  visibility: hidden;
+  max-height: 0;
+}
+
+.desapear:focus-within footer{
+  visibility: visible;
+  max-height: none;
+}
+
+.sp::before{
+content: '\2810';
+padding: 0 0.25rem;
+}

@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Roboto','Inter';
+}
+
+:focus{
+  outline: 0;
+  box-shadow: 0 0 0 2px #00875f;
+}
+
+body {
+  background-color: #121214;
+  color: #c4c4cc;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body, input, textarea, button, h1{
+  font-family: 'Roboto' , 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.heightRead{
+  height: calc(100vh - 4rem);
+}
+
+a{
+  &.active{
+    color:#00875f;
+  }
+}
+
+fontFamily{
+  font-family: jetBrainsMono Nerd Font;
+}
+
+webkit::-webkit-calendar-piker-indicator{
+  display: none !important;
+}
+@media (max-width: 768px)  {
+ 
+  .amounted span{
+    font-size: 16px;
+    height: 12px;
+    width: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .point{
+    margin-top: 12px;
+  }
+ 
+  .heightRead{
+    width:100%;
+  }
+
+  .changeded{
+    width: 25rem;
+  }
+  .e{
+    align-items: center;
+  }
+
+  .e h1{
+    margin-top: 3rem;
+  }
+
+
+  .breacker div{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  
+  }
+
+}

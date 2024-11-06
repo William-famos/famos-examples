@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+body{
+    background-color:#1A1A1A;
+    -webkit-font-smoothing:antialiased;
+}
+
+@media (max-width: 768px)  {
+    html{
+      font-size: 87.5%;
+    }
+    .asps{
+        width: 25rem;
+    }
+    .morning{
+        width: 25rem;
+    }
+    .notabsolute{
+        left: -12rem;
+    }
+    .notabsolute1{
+        left: -9rem;
+    }
+    .dispencer{
+        flex-direction: column;
+    }
+    .dispencer input{
+        width: 100%;
+    }
+    
+    .miss{
+        justify-content: flex-end;
+    }
+  }
