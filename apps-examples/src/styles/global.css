@@ -1,0 +1,273 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+.dad span{
+    display: flex;
+    gap: 19px;
+    border-bottom: 0.5px solid #ece8e8;
+}
+
+.dad span p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 9999px;
+
+    background-color:#5E60CE ;
+    color: white;
+
+}
+
+.dad span div,p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.dad span h1,p{
+    font-family: 'Circular Std Black';
+    font-weight: 900;
+    color: #707070;
+}
+
+.dad span h3{
+    font-family: 'Circular Std Medium';
+    font-weight:normal;
+    color: #c9c9ce;
+}
+.font{
+    font-family: 'Circular Std Black';
+    font-weight: bold;
+    color: #707070;
+}
+
+.fontts{
+    font-family: 'Circular Std Black';
+    font-weight: bold;
+    color: #5E60CE;
+    font-size: 25px;
+}
+
+.shadows{
+    box-shadow:0.5px 9px 5px 0px #5E60CE;
+}
+
+.mosts{
+    box-shadow:7px 6px 4px 0px #5E60CE;
+    border-radius: 9px;
+    padding: 2rem;
+}
+
+.mosts div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    border-right: 0.5px solid #ece8e8;
+    padding-right: 72px;
+    padding-left: 72px;
+}
+
+.withUs{
+    font-family: 'Circular Std Black';
+    font-weight: bold;
+    font-size:40px;
+    text-shadow:  3px 2px 2px #5E60CE;
+
+}
+
+.mosts h1{
+    color: #5E60CE;
+    font-family: 'Circular Std Black';
+    font-weight: 900;
+    font-size: 19px;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+}
+
+.only span{
+display: flex;
+gap: 3px;
+}
+
+.adjusted{
+    max-width: 90rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  
+    display: grid;
+    grid-template-columns: 256px 1fr;
+    gap: 9rem;
+    align-items: flex-start;
+}
+
+#section02{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 256px 1fr;
+    gap: 9rem;
+    align-items: center;
+}
+
+.woody{
+    width: 514px;
+}
+
+
+.ancor:last-child{
+padding-right: 90px;
+
+}
+
+@media (max-width: 768px) {
+    html{
+        font-size: 78.5%;
+        max-width:70rem;
+    }
+
+    input,button,span{
+        max-width:19rem;
+    }
+   
+
+    .adjusted{
+        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 20rem;
+        gap: 1rem;
+    }
+
+    .ancor{
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    ins img{
+        max-width: 8rem;
+        max-height: 8rem;
+        
+    }
+    .monet{
+        margin-top: 0px;
+        margin-right: 12px;
+    }
+    ins{
+        margin-top: -12px;
+        padding-left: 10rem;
+        padding-bottom: 2rem;
+    }
+
+    #section02 {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+    }
+    .fontts{
+        font-size: 19px;
+        margin-top: 45px;
+        margin-bottom: -19px;
+    }
+    .morty{
+        display: none;
+    }
+    .mosts{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+    .mosts div{
+        padding-bottom: 25px;
+        border-right: none;
+        border-bottom:0.5px solid #ece8e8;
+    }
+
+    #section03 .withUs{
+        font-size: 27px;
+        margin-bottom: 40px;
+    }
+   
+    .mosts .speatch{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-left: 20px;
+    }
+    #section04 p{
+        text-align: center;
+        max-width: 19rem;
+    }
+    footer div span img{
+        max-width: 30px;
+        max-height: 30px;
+        margin-right: 5px;
+    }
+
+    footer p{
+        font-size: 13px;
+    }
+    footer{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:1200px){
+    #section02 span{
+        max-width: 20rem;
+        margin-left: 3rem; 
+    }
+    
+    .woody{
+        width: 414px;
+    }
+
+    ins:nth-child(2){
+        width: 36rem;
+    }
+
+    ins .monet{
+         margin-left: 12rem;
+    }
+    .morty{
+        display: none;
+    }
+}
+
+@media (max-width:811px){
+    #section02 div span h3{
+        font-size: 17px;
+    }
+
+    #section02 div span p{
+        font-size: 10px;
+    }
+
+    ins img{
+        max-width: 7rem;
+        max-height: 7rem;
+        
+    }
+}

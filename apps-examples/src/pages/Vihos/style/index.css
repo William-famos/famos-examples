@@ -1,0 +1,589 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+ padding: 0;
+ margin: 0;
+ font-size: 12px;
+ box-sizing: border-box;
+ outline: none;  
+ font-family: Segoe UI;
+ border: none;
+ object-fit: cover;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.bgrounds{
+    background-color: rgb(32 33 36);
+}
+
+.font-SegoePrint{
+    font-family: Segoe Print;
+}
+
+.font-circular{
+    font-family:'Circular Std Black';
+}
+
+
+.btn_one{
+    background-color: #2680EB;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.btn_two{
+    background-color: white;
+    color: #2680EB;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.div_Contorn{
+    border: 0.5px solid #949292;
+    border-radius: 5px;
+}
+
+.Carson{
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+
+
+section .us{
+    gap: 40px;
+}
+
+.bgCards_Packs{
+    background-image: url("../Assets/Svg/ground.svg");
+    background-repeat: no-repeat;
+    background-size:1500px;
+    height: 500px;
+    background-position-x: -80px;
+}
+
+.sliderBone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.rightside{
+    background-color: #2680EB;
+    color: white;
+    height: 100%;
+}
+
+.leftside{
+    border: 2px solid #2680EB;
+    color: #2680EB;
+    height: 100%;
+    font-family: 'Circular Std Italic Bold Negrito';
+}
+
+
+.inputs_take input{
+    border: 1px solid #94929263;
+    height: 27px;
+    padding-left: 12px;
+    font-size: 10px;
+
+}
+
+.inputs_take label{
+    padding-top: 9px;
+    padding-bottom: 5px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.inputs_take select{
+    border: 0.5px solid #94929263;
+    width: 90px;
+    padding: 5px;
+    font-size: 10px;
+}
+
+
+.hora{
+    background-image: url("../Assets/icons/icons8_time_32px_1.png");
+    background-repeat: no-repeat;
+    background-size:27%;
+    background-position: right;
+    width: 24%;
+    background-position-x: 90%;
+}
+
+.imgCategorias{
+    width: 100%;
+    height: 100%;
+    opacity: 75%;
+}
+
+.folder{
+    background-image: url("../Assets/icons/icons8_folder_26px_1.png");
+    background-repeat: no-repeat;
+    background-size:20%;
+    background-position:right;
+    width: 24%;
+    background-position-x: 90%;
+
+}
+
+
+
+.form_trans input {
+    border: 1px solid #94929263;
+    width: 200px;
+    height: 35px;
+    padding-left: 12px;
+    text-align: left;
+}
+
+.form_trans label{
+    padding-top: 12px;
+    padding-bottom: 5px;
+}
+
+.form_trans select{
+    border: 1px solid #9492924c;
+    color:#949292;
+    text-align: center;
+    width: 100px;
+    height: 35px;
+}
+
+.btn_form_trans_cancelar{
+
+    color: #0053C5;
+    border: 2px solid #0053C5;
+    text-align: center;
+    width: 100px;
+    height: 35px;
+}
+
+.btn_form_trans_seguir{
+    background-color: #0053C5;
+    color: white;
+    width: 170px;
+    height: 35px;
+    text-align: center;
+}
+
+.imgBackRestaurante{
+ 
+    background-image: url("../Assets/Svg/BackResSelec.svg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size:70%;
+    width: 100%;
+    background-position-x: 120%;
+    background-position-y: 130%;
+
+}
+
+.AeriaIMG {
+    background-image: url('../Assets/img/plain.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    width: 100%;
+}
+
+.reservarSideBack{
+    background-image: url('../Assets/icons/icones_backFormReservar.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:92%;
+    
+
+}
+
+.backHotelIcon{
+    background-image: url('../Assets/icons/Vertical\ Lines\ _\ With.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100%;
+
+}
+
+.backHoteli{
+
+    background-image: url('../Assets/icons/IconsBackHotelTwoWithout.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:99%;
+}
+
+
+.iconBackSeletedTransportes{
+    background-image: url('../Assets/icons/Icons_backTransporte.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:50%;
+}
+
+.ground {
+    background-image: url('../Assets/icons/Vertical\ Lines\ _\ iconesRestaurant.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100%;
+    
+}
+
+
+.RodoViariaIMG {
+    background-image: url('../Assets/img/Firefly\ 1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    width: 100%;
+    flex-direction: row;
+}
+
+.imgRestaurant {
+    background-image: url('../Assets/img/people-ramadan-celebration.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    width: 100%;
+}
+.hr{
+    border: 1px solid #949292;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 250px;
+    height: 15px;
+}
+/* .imgReserverRodoviaria::before{
+    content: '';
+    background-color:black ;
+    width: 100%;
+    position: absolute;
+    z-index:90;
+    height: 100%;
+    opacity: 0.5;
+    green-#53C946
+    blue-#2680EB
+} */
+
+.font-Back-World{
+    background-image: url('../../../assets/imap.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 900px;
+    width: 100%;
+}
+.publi{
+    background-image: url('../Assets/img/PubliHotelN1.JPG');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.HospedagemIMG{
+    background-image: url('../Assets/img/full-shot-man-carrying-baggage.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    width: 100%;
+}
+.Selected_Hotel{
+
+    background-image: url('../Assets/img/Grupo\ 26.png');
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.text{
+    text-align: start;
+}
+.position{
+    position:absolute;
+}
+
+.sitio{
+    position: absolute;
+}
+
+.padding{
+    padding-left: 22px;
+    padding-top: 7px;
+}
+.pi{
+    position:absolute;
+    margin-top: 150px;
+    color: white;
+}
+.p{
+    padding-top:70px ;
+}
+.f{
+    padding-right: 70px;
+}
+
+.f p:nth-child(1){
+    max-width: 300px;
+}
+
+.fl{
+    padding: 32px;
+}
+.flc{
+    padding-bottom: 72px;
+}
+
+.b{
+    border: 0.5px solid #F8A217;
+    color: #F8A217;
+    border-radius: 3px;
+    width: 92px;
+    height: 30px;
+}
+.pi :nth-child(2){
+
+    margin-top: 2px;
+    margin-bottom: 5px ;
+    
+}
+
+
+.bord{
+    border: 0.5px solid #c6c0c050 ;
+    border-radius: 7px;
+    height: 90px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content:space-between;
+    align-items: center;
+   }
+   
+
+
+.bordas{
+ border: 0.5px solid #c6c0c0 ;
+ border-radius: 7px;
+ width: 150%;
+ height: 90px;
+ margin-top: 15px;
+ display: flex;
+ flex-direction: column;
+ justify-content:center;
+ align-items: flex-start;
+ padding-left: 20px;
+
+}
+
+.form_Takeaway{
+    border-radius: 20px;
+}
+
+.img_TakeawayB{
+    border-radius: 20px 0px 0px 20px;
+}
+
+.reservar_side{
+    border-radius: 0px 20px 20px 0px;
+}
+
+.btn_form_take{
+    border: 2px solid #00BA62;
+    color: #00BA62;
+    text-align: center;
+    width: 100px;
+    padding: 5px;
+}
+
+.labeles label{
+    padding-top: 0%;
+    color: #949292;
+}
+.labeles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+.n div:nth-child(1){
+    margin-top: 2px;
+}
+.n p{
+    opacity: 60%;
+    padding-left: 12px;
+}
+
+
+:root{
+    --shadow:0px 3px 6px #949292;
+    --first-color:#47cc30;
+    --second-color:#EBEBEB;
+}
+
+
+::-webkit-scrollbar{
+    background-color: white;
+    width: 7px;
+}
+::-webkit-scrollbar-button{
+    width: 10px;
+    height: 10px;
+    @apply bg-[#000018];
+}
+::-webkit-scrollbar-thumb{
+    background-color:rgba(128, 128, 128, 0.582);
+    border-radius: 0px;
+    width: 3px;
+}
+
+/* Aria Animation */
+.Animation_zoom{
+    zoom: 1;   
+}
+
+
+.Animation_Translate{
+    animation: 3s infinite animation_Translate;
+}
+
+@keyframes animation_Translate {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0px);
+
+    }
+
+}
+
+
+
+.l input{
+    border: 1px solid #94929263;
+    height: 27px;
+    padding-left: 12px;
+    font-size: 10px;
+    width: 180px;
+}
+
+.l label{
+    padding-top: 9px;
+    padding-bottom: 5px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.yellow{
+padding-right: 100px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.bt{
+    border:1px solid #F8A217;
+}
+
+.max{
+    max-width: 276px;
+}
+
+
+.scroll-container {
+    width: 100%; 
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .element {
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+  }
+
+  .simpleBord{
+    border: 1px solid #94929263;
+  }
+
+  .qest{
+    display: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    html{
+        font-size: 78.5%;
+    }
+
+
+    .riscas:first-child{
+        width: 100%;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .riscas span{
+        width:90px ;
+    }
+
+    .rick{
+        gap: 1rem;
+    }
+
+    .guild{
+        align-items: center;
+    }
+
+    .haeght{
+        flex-direction: column;
+    }
+
+    .riscassom{
+        display: none;
+    }
+
+    .qest{
+        display: block;
+        padding-left: 10px;
+        margin-top: -12px;
+    }
+    .jerry{
+        flex-direction: column;
+       
+    }
+
+    .mjerry{
+        margin: 0;
+        width: 180px;
+        margin-left: -6rem;
+    }
+    .lemilion:nth-child(2){
+     background: #000;
+    }
+}
